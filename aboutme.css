@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Weezer';
+    src: url(Font/centurygothic.ttf);
+}
+@font-face {
+    font-family: 'Angy';
+    src: url(Font/PermanentMarker-Regular.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+a{
+    color: hotpink;
+    text-decoration: none;
+}
+
+.head{
+    color:hotpink;
+}
+
+.head > h1{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Angy;
+}
+
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.list-container > div{
+    flex: 40px 0 auto;
+    border: dotted;
+    font-size: x-large;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-radius: 30px;
+    border-width: 3px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.current{
+    font-size: xx-large;
+}
+
+
+    /* 
+    border-style: solid;
+    border-radius: 40px;
+    border-color: rgb(196, 105, 1);
+    background-color: orange; */
