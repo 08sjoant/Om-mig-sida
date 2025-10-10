@@ -37,6 +37,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     font-family: Head2;
+    font-size: xx-large;
 }
 
 
@@ -64,6 +65,19 @@ h2{
     border-width: 3px;
     box-sizing: border-box;
     padding: 10px;
+    color: rgb(168, 59, 114);
+}
+
+.head > .list-container > div:hover{
+    border: dotted;
+    font-size: x-large;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-radius: 30px;
+    border-width: 3px;
+    box-sizing: border-box;
+    padding: 10px;
+    color: hotpink;
 }
 
 .main-content > .list-container > div{
@@ -75,10 +89,12 @@ h2{
     padding-bottom: 0;
     padding-top: 0;
     height: 500px;
+    margin-top: 20px;
 }
 
 .list-container > div > img{
     height: 100%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
