@@ -108,6 +108,18 @@ h2{
     font-size: xx-large;
 }
 
+.italic{
+    font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.red{
+    color: rgb(216, 18, 18);
+}
+
 
     /* 
     border-style: solid;
