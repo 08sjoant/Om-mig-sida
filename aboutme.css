@@ -40,6 +40,10 @@ h2{
     font-size: xx-large;
 }
 
+.weezer{
+    font-family: 'Weezer';
+    color: white;
+}
 
 .list-container{
     display: flex;
@@ -92,12 +96,26 @@ h2{
     margin-top: 20px;
 }
 
+.bottom{
+    display: block;
+    overflow: auto;
+}
+
+.poem{
+    text-align: center;
+}
+
 .list-container > div > img{
     height: 100%;
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.list-container > div > span > img{
+    height: 50px;
+    width: 50px;
 }
 
 .main-content > .list-container > .no-border{
