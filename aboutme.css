@@ -106,12 +106,21 @@ h2{
     text-align: center;
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
 .list-container > div > img{
     height: 100%;
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    object-fit: cover;
+}
+.HochA{
+    object-position: 100%;
 }
 
 .list-container > div > li > img{
@@ -122,6 +131,7 @@ h2{
 li{
     height: 40px;
 }
+
 
 .main-content > .list-container > .no-border{
     border: none;
