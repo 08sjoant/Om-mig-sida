@@ -12,7 +12,8 @@
 }
 
 body{
-    background-color: black;
+    background-image: url(Images/bakgrund.png);
+    background-size: cover;
 }
 
 a{
@@ -113,9 +114,13 @@ h2{
     margin-right: auto;
 }
 
-.list-container > div > span > img{
+.list-container > div > li > img{
     height: 50px;
     width: 50px;
+}
+
+li{
+    height: 40px;
 }
 
 .main-content > .list-container > .no-border{
@@ -138,6 +143,9 @@ h2{
     color: rgb(216, 18, 18);
 }
 
+.xtramargin{
+    margin-top: 30px;
+}
 
     /* 
     border-style: solid;
