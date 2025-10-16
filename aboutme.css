@@ -74,6 +74,7 @@ h2{
     box-sizing: border-box;
     padding: 10px;
     color: rgb(168, 59, 114);
+    transition: transform 0.3s;
 }
 
 .head > .list-container > div:hover{
@@ -86,6 +87,7 @@ h2{
     box-sizing: border-box;
     padding: 10px;
     color: hotpink;
+    transform: scale(1.1, 1.1);
 }
 
 .main-content > .list-container > div{
